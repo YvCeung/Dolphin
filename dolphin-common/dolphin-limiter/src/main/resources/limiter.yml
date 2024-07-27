@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 192.168.0.1:8099 #\u5982\u679C\u7528\u4E86sentinel \u8FD9\u91CC\u9700\u8981\u6539\u6210\u4F60\u81EA\u5DF1\u7684sentinel\u7684\u63A7\u5236\u53F0\u5730\u5740
+        port: 8098 # \u5982\u679C\u7528\u4E86sentinel \u8FD9\u91CC\u9700\u8981\u6539\u6210\u4F60\u81EA\u5DF1\u7684
+      datasource:
+        ds:
+          nacos:
+            server-addr: 121.41.177.228:8848 #\u5982\u679C\u7528\u4E86sentinel \u8FD9\u91CC\u9700\u8981\u6539\u6210\u4F60\u81EA\u5DF1\u7684nacos\u7684\u63A7\u5236\u53F0\u5730\u5740
+            data-id: nfturbo-gateway-sentinel  # \u5982\u679C\u7528\u4E86sentinel \u8FD9\u91CC\u9700\u8981\u6539\u6210\u4F60\u81EA\u5DF1\u7684 \u5728nacos\u4E0A\u5B9A\u4E49\u7684data-id
+            group-id: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow  # \u4E5F\u53EF\u4EE5\u662F degrade, param-flow, etc.

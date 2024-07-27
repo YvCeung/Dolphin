@@ -27,8 +27,25 @@
 		<dependency>
 			<groupId>com.zyg</groupId>
 			<artifactId>dolphin-config</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+        <!--  限流组件  -->
+        <dependency>
+            <groupId>com.zyg</groupId>
+            <artifactId>dolphin-limiter</artifactId>
+            <exclusions>
+                <!--  排除spring-web，gateway应用中不能包含spring mvc组件-->
+                <exclusion>
+                    <groupId> org.springframework</groupId>
+                    <artifactId>spring-web</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId> org.springframework</groupId>
+                    <artifactId>spring-webmvc</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
 
         <!-- Sa-Token 权限认证 -->
         <dependency>
@@ -49,6 +66,7 @@
             <artifactId>sa-token-redis-jackson</artifactId>
             <version>1.37.0</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>

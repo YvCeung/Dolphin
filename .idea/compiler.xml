@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dolphin-limiter" />
       </profile>
       <profile name="Annotation profile for Dolphin" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -17,6 +19,7 @@
           <entry name="/opt/homebrew/Cellar/maven/3.9.8/libexec/mvn_resp/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
         </processorPath>
         <module name="dolphin-gateway" />
+        <module name="dolphin-cache" />
         <module name="dolphin-config" />
       </profile>
     </annotationProcessing>
@@ -27,9 +30,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Dolphin" options="-parameters" />
+      <module name="dolphin-cache" options="-parameters" />
       <module name="dolphin-common" options="-parameters" />
       <module name="dolphin-config" options="-parameters" />
       <module name="dolphin-gateway" options="-parameters" />
+      <module name="dolphin-limiter" options="-parameters" />
       <module name="gateway" options="-parameters" />
     </option>
   </component>

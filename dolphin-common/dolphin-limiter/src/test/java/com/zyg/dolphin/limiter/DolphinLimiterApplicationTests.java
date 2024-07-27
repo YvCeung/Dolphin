@@ -1,10 +1,10 @@
-package com.zyg.dolphin.config;
+package com.zyg.dolphin.limiter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DolphinConfigApplicationTests {
+class DolphinLimiterApplicationTests {
 
     @Test
     void contextLoads() {
