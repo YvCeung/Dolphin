@@ -1,13 +1,13 @@
-package com.zyg.dolphin.gateway;
+package com.zyg.dolphin.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DolphinGatewayApplicationTests {
+class DolphinConfigApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
