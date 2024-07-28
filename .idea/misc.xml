@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-config/pom.xml" />
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-cache/pom.xml" />
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-limiter/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-common/dolphin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-common/dolphin-base/pom.xml" />
       </list>
     </option>
   </component>

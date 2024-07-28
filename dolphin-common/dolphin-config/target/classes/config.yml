@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.41.177.228:8848
+      config:
+        server-addr: 121.41.177.228:8848
+        file-extension: properties
+        #其他模块引用到此依赖就会填充此属性
+        name: ${spring.application.name}

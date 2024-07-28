@@ -29,6 +29,11 @@
 			<artifactId>dolphin-config</artifactId>
 		</dependency>
 
+        <dependency>
+            <groupId>com.zyg</groupId>
+            <artifactId>dolphin-api</artifactId>
+        </dependency>
+
         <!--  限流组件  -->
         <dependency>
             <groupId>com.zyg</groupId>

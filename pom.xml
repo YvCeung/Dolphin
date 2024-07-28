@@ -112,6 +112,18 @@
 				<artifactId>dolphin-limiter</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-base</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-api</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
