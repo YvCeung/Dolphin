@@ -13,14 +13,5 @@ spring:
             allowedHeaders: '*'
             allowedMethods: '*'
             allowedOrigins: '*'
-      routes:
-        - id: nfturbo-auth
-          uri: lb://nfturbo-auth
-          predicates:
-            - Path=/auth/**,/token/**
-        - id: nfturbo-business
-          uri: lb://nfturbo-business
-          predicates:
-            - Path=/trade/**,/order/**,/user/**,/collection/**,/wxPay/**
 server:
   port: 8081

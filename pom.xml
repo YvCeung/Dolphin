@@ -95,6 +95,13 @@
 				<version>1.6.0.Beta1</version>
 			</dependency>
 
+			<!--本地模块依赖-->
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-gateway</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 			<dependency>
 				<groupId>com.zyg</groupId>
 				<artifactId>dolphin-config</artifactId>

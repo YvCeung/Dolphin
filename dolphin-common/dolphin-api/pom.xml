@@ -11,8 +11,6 @@
     <groupId>com.zyg</groupId>
     <artifactId>dolphin-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dolphin-api</name>
-    <description>dolphin-api</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
