@@ -17,6 +17,9 @@
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-mq/pom.xml" />
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-common/dolphin-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-common/dolphin-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-common/dolphin-sa-token/pom.xml" />
       </list>
     </option>
   </component>

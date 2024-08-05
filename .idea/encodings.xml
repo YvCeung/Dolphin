@@ -15,6 +15,12 @@
     <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-lock/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-mq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-mq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-rpc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-sa-token/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-sa-token/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dolphin-common/dolphin-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dolphin-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dolphin-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

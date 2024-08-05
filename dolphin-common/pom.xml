@@ -31,6 +31,9 @@
         <module>dolphin-datasource</module>
         <module>dolphin-mq</module>
         <module>dolphin-lock</module>
+        <module>dolphin-rpc</module>
+        <module>dolphin-web</module>
+        <module>dolphin-sa-token</module>
     </modules>
 
     <dependencies>

@@ -117,6 +117,32 @@
 
 			<dependency>
 				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-rpc</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-mq</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-lock</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-datasource</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+
+
+			<dependency>
+				<groupId>com.zyg</groupId>
 				<artifactId>dolphin-limiter</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -130,6 +156,18 @@
 			<dependency>
 				<groupId>com.zyg</groupId>
 				<artifactId>dolphin-api</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-web</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-sa-token</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 

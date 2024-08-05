@@ -2,54 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>com.zyg</groupId>
-        <artifactId>Dolphin</artifactId>
+        <artifactId>dolphin-common</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <groupId>com.zyg</groupId>
-    <artifactId>dolphin-auth</artifactId>
+    <artifactId>dolphin-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
-    <description>dolphin-auth</description>
-
+    <name>dolphin-web</name>
+    <description>web组件</description>
     <properties>
-        <application.name>dolphin-auth</application.name>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>com.zyg</groupId>
-            <artifactId>dolphin-config</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.zyg</groupId>
-            <artifactId>dolphin-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.zyg</groupId>
-            <artifactId>dolphin-api</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.zyg</groupId>
-            <artifactId>dolphin-cache</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.zyg</groupId>
-            <artifactId>dolphin-rpc</artifactId>
+            <artifactId>dolphin-base</artifactId>
         </dependency>
 
         <dependency>
@@ -57,14 +32,17 @@
             <artifactId>dolphin-sa-token</artifactId>
         </dependency>
 
-        <!--TEST-->
+        <dependency>
+            <groupId>com.zyg</groupId>
+            <artifactId>dolphin-cache</artifactId>
+        </dependency>
+
+        <!--    Spring Boot Web   -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
     </dependencies>
-
 
 </project>
