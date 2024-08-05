@@ -33,6 +33,7 @@
 	<modules>
 		<module>dolphin-gateway</module>
 		<module>dolphin-common</module>
+		<module>dolphin-auth</module>
 	</modules>
 
 	<dependencyManagement>
@@ -129,6 +130,12 @@
 			<dependency>
 				<groupId>com.zyg</groupId>
 				<artifactId>dolphin-api</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.zyg</groupId>
+				<artifactId>dolphin-auth</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>

@@ -18,11 +18,15 @@
           <entry name="/opt/homebrew/Cellar/maven/3.9.8/libexec/mvn_resp/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
         </processorPath>
         <module name="dolphin-base" />
-        <module name="dolphin-gateway" />
         <module name="dolphin-cache" />
         <module name="dolphin-api" />
         <module name="dolphin-config" />
+        <module name="dolphin-mq" />
+        <module name="dolphin-auth" />
+        <module name="dolphin-gateway" />
+        <module name="dolphin-datasource" />
         <module name="dolphin-limiter" />
+        <module name="dolphin-lock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,12 +37,17 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Dolphin" options="-parameters" />
       <module name="dolphin-api" options="-parameters" />
+      <module name="dolphin-auth" options="-parameters" />
       <module name="dolphin-base" options="-parameters" />
+      <module name="dolphin-business" options="-parameters" />
       <module name="dolphin-cache" options="-parameters" />
       <module name="dolphin-common" options="-parameters" />
       <module name="dolphin-config" options="-parameters" />
+      <module name="dolphin-datasource" options="-parameters" />
       <module name="dolphin-gateway" options="-parameters" />
       <module name="dolphin-limiter" options="-parameters" />
+      <module name="dolphin-lock" options="-parameters" />
+      <module name="dolphin-mq" options="-parameters" />
       <module name="gateway" options="-parameters" />
     </option>
   </component>

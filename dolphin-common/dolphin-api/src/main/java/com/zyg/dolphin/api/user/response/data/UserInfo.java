@@ -35,7 +35,7 @@ public class UserInfo implements Serializable {
     /**
      * 状态
      *
-     * @see UserStateEnum
+     * @see com.zyg.dolphin.api.user.constant.UserStateEnum
      */
     private String state;
 

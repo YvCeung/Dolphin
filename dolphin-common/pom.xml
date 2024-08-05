@@ -28,6 +28,9 @@
         <module>dolphin-config</module>
         <module>dolphin-limiter</module>
         <module>dolphin-cache</module>
+        <module>dolphin-datasource</module>
+        <module>dolphin-mq</module>
+        <module>dolphin-lock</module>
     </modules>
 
     <dependencies>

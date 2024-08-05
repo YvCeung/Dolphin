@@ -12,6 +12,11 @@
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-limiter/pom.xml" />
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-api/pom.xml" />
         <option value="$PROJECT_DIR$/dolphin-common/dolphin-base/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-business/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-common/dolphin-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-common/dolphin-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/dolphin-common/dolphin-lock/pom.xml" />
       </list>
     </option>
   </component>
