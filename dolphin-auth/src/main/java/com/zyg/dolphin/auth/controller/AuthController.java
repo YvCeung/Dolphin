@@ -17,6 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
     @RequestMapping("test")
     public String test() {
-        return "test";
+        return "test1";
     }
 }
