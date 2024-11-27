@@ -15,8 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
-    @RequestMapping("test")
+    @RequestMapping("/test")
     public String test() {
         return "test1";
+    }
+
+    @RequestMapping("/health/check")
+    public String health() {
+        return "success";
     }
 }
